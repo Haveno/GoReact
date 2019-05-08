@@ -1,3 +1,9 @@
-const soma = (a, b) => a + b;
+import React from 'react';
 
-alert(soma(5, 20))
+class App extends Component {
+    render() {
+        return <h1>Oi hugo.. </h1>;
+    }
+}
+
+render(<App />, document.getElementById("app"));

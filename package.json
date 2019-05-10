@@ -2,16 +2,18 @@
   "name": "GoReact1",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
   "scripts": {
     "dev": "webpack-dev-server --mode development"
   },
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
